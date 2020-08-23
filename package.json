@@ -1,28 +1,50 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "e_commerce",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt": "^4.0.1",
-    "bluebird": "^3.7.2",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "joi": "^14.3.1",
+    "@ant-design/icons": "^4.2.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.5.1",
+    "aws-sdk": "^2.737.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.0",
+    "handlebars": "^4.7.6",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.11",
+    "random-string": "^0.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "web3": "^1.2.11"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
